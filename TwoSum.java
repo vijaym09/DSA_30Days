@@ -6,7 +6,9 @@ class TwoSum{
                 if((arr[i]+arr[j])==target){
                     return new int[]{i,j};
                }
+               
             }
+           
         }
     return new int[]{};
     }   
