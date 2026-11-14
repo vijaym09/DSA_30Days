@@ -5,10 +5,8 @@ class TwoSum{
             for(int j=1;j<arr.length;j++){
                 if((arr[i]+arr[j])==target){
                     return new int[]{i,j};
-               }
-               
+               }  
             }
-           
         }
     return new int[]{};
     }   
